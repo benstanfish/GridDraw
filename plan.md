@@ -9,7 +9,8 @@
 
 ### Drafting related functionality
 
-- Continuous line: creating multi-segmented line
+- Show nodes: when drawing linear objects, draw ellipses at nodes. Requires ability to store creation information as well as recognize when a node has been destroyed
+- Continuous line: creating multi-segmented line (allow ability to delete previously drawing nodes)
 - Continuous line: closure of polyline (indicative fill?)
 - Transaction: capture edits associated with drawing object
 - List of drawing objects - for memory storage and recreation of objects
