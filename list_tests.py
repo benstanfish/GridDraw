@@ -1,5 +1,6 @@
 from tkinter import *
 from settings import *
+from griddraw_discrete import *
 
 pts=[]
 

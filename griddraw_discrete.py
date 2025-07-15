@@ -1,7 +1,7 @@
 __version__ = '1.0'
 
-from tkinter import *
-from settings import *
+# from tkinter import *
+# from settings import *
 
 def get_axis_points(min, max, units):
     length=max-min
@@ -57,8 +57,8 @@ for col in range(len(ys)-1):
                                 width=grid_weight,
                                 fill=grid_fill)
 
-canvas.bind('<Button-1>', draw_point)
-canvas.bind('<Button-1>', draw_line, add='+')
-click_number=0
+# canvas.bind('<Button-1>', draw_point)
+# canvas.bind('<Button-1>', draw_line, add='+')
+# click_number=0
 
 window.mainloop()
