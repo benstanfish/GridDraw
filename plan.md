@@ -12,3 +12,4 @@
 - Continuous line: creating multi-segmented line
 - Continuous line: closure of polyline (indicative fill?)
 - Transaction: capture edits associated with drawing object
+- List of drawing objects - for memory storage and recreation of objects
