@@ -1,5 +1,12 @@
 # Planning
 
+
+### Settings
+- Create .ini if not found
+- ConfigParser for .ini settings files 
+- system settings vs. user settings
+
+
 ### Drawing grid related functionality
 
 - Grid creation: calculate size and location
