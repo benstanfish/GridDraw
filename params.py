@@ -69,6 +69,11 @@ j_major = {
     'shift': i_major['shift']
 }
 
+cLine={
+    'color': '#000000',
+    'width': 1
+}
+
 node_oval = {
     'radius': 1,
     'outline': '#000000',

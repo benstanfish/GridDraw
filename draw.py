@@ -3,6 +3,7 @@ __version__ = '1.0'
 from tkinter import *
 from params import *
 from funcs import *
+from draw_shapes import draw_line, draw_point
 
 x_min=get_waypoints(min=0, max=window_params['width']-1, units=i_minor['space'], shift=i_minor['shift'])
 x_maj=get_waypoints(min=0, max=window_params['width']-1, units=i_major['space'], shift=i_major['shift'])
@@ -46,8 +47,8 @@ for horiz in range(len(y_maj)):
                         width=j_major['width'])
 
 
-# canvas.bind('<Button-1>', draw_point)
-# canvas.bind('<Button-1>', draw_line, add='+')
-# click_number=0
+canvas.bind('<Button-1>', lambda event: draw_point(event, canvas=canvas))
+canvas.bind('<Button-1>', lambda event: draw_line(event, canvas=canvas), add='+')
+click_number=0
 
 window.mainloop()
