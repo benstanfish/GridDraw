@@ -35,8 +35,8 @@ theme={
 }
 
 window_params = {
-    'width': 800,
-    'height': 600,
+    'width': 1100,
+    'height': 700,
     'fill': theme['background'],
     'padding': 5
 }
@@ -45,14 +45,14 @@ i_minor = {
     'space': 20,
     'color': theme['minor'],
     'width': 1,
-    'shift': 5
+    'shift': 3
 }
 
 i_major = {
     'space': i_minor['space']*5,
     'color':theme['major'],
     'width': 1,
-    'shift': 5
+    'shift': 3
 }
 
 j_minor = {

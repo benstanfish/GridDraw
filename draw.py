@@ -16,7 +16,10 @@ canvas=Canvas(window,
               width=window_params['width'],
               height=window_params['height'],
               background=window_params['fill'])
-canvas.grid(row=0, column=0, padx=window_params['padding'], pady=window_params['padding'])
+
+canvas.grid(row=1, column=1, 
+            padx=window_params['padding'], 
+            pady=window_params['padding'])
 
 for vert in range(len(x_min)):
     canvas.create_line((x_min[vert], 0, 
